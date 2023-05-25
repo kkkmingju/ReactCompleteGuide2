@@ -22,3 +22,13 @@
   background: #fad0ec;
   border-color: #8b005d;
 }
+
+/* invalid클래스에 접근할 수 있음 = 같은 요소에 있어야 함 */
+.form-control.invalid input {
+  border-color: red;
+  background: rgb(255, 186, 186);
+}
+
+.form-control.invalid label {
+  color: red;
+}
